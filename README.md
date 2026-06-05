@@ -39,10 +39,31 @@ Many transcription tools are either online-only, limited to basic audio files, o
 
 Voice2Sub publishes release notes on the official website and mirrors the public version history here for GitHub discovery.
 
+### v1.1.2 — English speech-to-subtitle translation and smoother multilingual experience
+
+**Date:** June 5, 2026
+**Status:** Current stable release
+
+Voice2Sub 1.1.2 adds translation from source-language speech into English subtitle files, improves multilingual UI rendering, makes CUDA setup clearer, and updates the subtitle engine for better stability across Windows, Linux, and macOS.
+
+- Translate speech from supported source languages into English subtitles with English only output, or create separate source-language and English subtitle files with Original + English.
+- Updated subtitle engine and media processing for better stability across Windows, Linux, and macOS.
+- Improved display quality and smoother language switching for Chinese, Japanese, Korean, Thai, and Hindi.
+- Clearer CUDA setup and repair flow with background runtime checks.
+
+### v1.1.1 — Stability improvements for subtitle creation
+
+**Date:** June 1, 2026
+
+Voice2Sub 1.1.1 improves subtitle creation reliability, especially on macOS Apple Silicon, and handles long file names, Vietnamese accents, and special characters more smoothly.
+
+- Improved subtitle creation reliability on macOS Apple Silicon.
+- Better handling for long file names, Vietnamese accents, and special characters in file paths.
+- More reliable checks and recovery for the local processing components used to create subtitles.
+
 ### v1.1.0 — Batch subtitle creation and clearer progress tracking
 
 **Date:** May 30, 2026
-**Status:** Current stable release
 
 Voice2Sub 1.1.0 lets you create subtitles for multiple files at once, follow progress more easily, and enjoy more reliable file handling and updates across Windows, macOS, and Linux.
 
