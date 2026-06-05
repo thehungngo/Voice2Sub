@@ -135,7 +135,7 @@ See the full changelog: [CHANGELOG.md](CHANGELOG.md)
 
 - Windows x64
 - macOS Apple Silicon
-- Linux
+- Linux x64
 
 ## Useful links
 
