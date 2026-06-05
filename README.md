@@ -1,10 +1,10 @@
-# Voice2Sub — AI Subtitle Generator for Video & Audio
+# Voice2Sub — Local AI Subtitle Generator for Video & Audio
 
 **Voice2Sub** is a cross-platform desktop app that turns speech from video or audio files into AI-generated subtitles, transcripts and editable text.
 
 It is built for creators, editors, students, educators, podcasters and anyone who needs a private, local-first subtitle workflow on **Windows, macOS and Linux**.
 
-> Generate subtitles from audio and video files with local AI transcription, export to common subtitle/text formats, and keep your media files on your own computer.
+> Generate subtitles from audio and video files with local AI transcription, export to common subtitle/text formats, and keep your media files on your own computer. When your workflow needs English output, Voice2Sub can also create English-only subtitle files or a separate English subtitle file alongside the original subtitle output.
 
 ## Download
 
@@ -18,6 +18,7 @@ It is built for creators, editors, students, educators, podcasters and anyone wh
 - Local speech-to-text workflow powered by Whisper-style AI models
 - Export subtitles and transcripts to common formats such as SRT, VTT, TXT, LRC and CSV
 - Support for many recognition languages
+- Optional English subtitle output from supported source-language speech
 - Prompt/context input to improve transcription accuracy for specific content
 - Temperature and advanced transcription controls
 - Audio Quality Enhancement for difficult or noisy recordings
@@ -33,6 +34,7 @@ Many transcription tools are either online-only, limited to basic audio files, o
 - Import video or audio
 - Configure model, prompt and quality settings
 - Generate subtitles/transcripts locally
+- Optionally create English subtitle output when the project needs an English version
 - Export in formats ready for editing, learning, documentation or content creation
 
 ## Release history
