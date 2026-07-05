@@ -1,180 +1,143 @@
-# Voice2Sub — Local AI Subtitle Generator & Subtitle Editor for Video and Audio
+# Voice2Sub — Local AI Subtitle Generator & Subtitle Editor
 
-**Voice2Sub** is a cross-platform desktop app that turns speech from video or audio files into AI-generated subtitles, transcripts and editable text.
+**Voice2Sub is a local-first desktop app for creating AI subtitles, speech-to-text transcripts and editable subtitle files from video/audio on Windows, macOS and Linux.**
 
-It is built for creators, editors, students, educators, podcasters and anyone who needs a private, local-first subtitle workflow on **Windows, macOS and Linux**.
+Voice2Sub is built for creators, editors, students, educators, podcasters, journalists and teams who need a private desktop subtitle workflow without starting by uploading source media to a web transcription service.
 
-> Generate subtitles from audio and video files with local AI transcription, review and edit subtitle text and timing, export to common subtitle/text formats, and keep your media files on your own computer. When your workflow needs English output, Voice2Sub can also create English-only subtitle files or a separate English subtitle file alongside the original subtitle output.
+Use it to generate subtitles from local video or audio files, review and edit subtitle text and timing, then export common subtitle and transcript formats such as SRT, VTT, TXT, LRC, CSV and JSON.
 
-## Download
+<p align="center">
+  <a href="https://voice2sub.pro.vn/download"><strong>Download Voice2Sub</strong></a>
+  ·
+  <a href="https://voice2sub.pro.vn/">Website</a>
+  ·
+  <a href="https://voice2sub.pro.vn/whats-new">What's New</a>
+  ·
+  <a href="https://github.com/thehungngo/Voice2Sub/issues">Report an Issue</a>
+</p>
 
-* Website: https://voice2sub.pro.vn/
-* Download: https://voice2sub.pro.vn/download
-* What's new: https://voice2sub.pro.vn/whats-new
+---
 
 ## Key features
 
-* AI subtitle generation from video and audio files
-* Local speech-to-text workflow powered by Whisper-style AI models
-* Subtitle editor for reviewing generated subtitles and supported subtitle files
-* Timing review and adjustment with audio preview
-* Export subtitles and transcripts to common formats such as SRT, VTT, TXT, LRC and CSV
-* Separate edited export workflow so reviewed subtitles can be saved safely
-* Support for many recognition languages
-* Optional English subtitle output from supported source-language speech
-* Prompt/context input to improve transcription accuracy for specific content
-* Temperature and advanced transcription controls
-* Audio Quality Enhancement for difficult or noisy recordings
-* Recent work and generated subtitle review workflow
-* Windows, macOS and Linux desktop support
-* Optional CUDA acceleration on supported NVIDIA GPUs
-* Apple Silicon / Metal-oriented desktop workflow on macOS
-* Local-first workflow: no need to upload your private media to a website for transcription
+- AI subtitle generation from local video and audio files.
+- Speech-to-text transcription for podcasts, interviews, meetings, lectures, lessons and recordings.
+- Subtitle editor for reviewing generated subtitles and supported subtitle files.
+- Text and timing review before exporting subtitle files.
+- Export subtitles and transcripts as SRT, VTT, TXT, LRC, CSV and JSON.
+- Batch subtitle workflow for processing multiple media files.
+- Optional English subtitle output when needed.
+- Local-first desktop workflow without uploading source media to this website.
+- Spoken-language selection for up to 99 recognition languages.
+- CUDA acceleration on supported Windows/Linux systems with NVIDIA GPUs.
+- Metal acceleration on supported Apple Silicon Macs.
+- Windows, macOS and Linux desktop support.
 
 ## Why Voice2Sub?
 
-Many transcription tools are either online-only, limited to basic audio files, or designed as generic speech-to-text utilities. Voice2Sub focuses on a dedicated **subtitle generation and review workflow**:
+Many subtitle and transcription tools are browser-based and require users to upload media files before processing. That can be inconvenient for private videos, long recordings, client files, podcast archives, lessons, interviews, meetings and repeat desktop production work.
 
-* Import video, audio or supported subtitle files
-* Configure model, prompt and quality settings
-* Generate subtitles/transcripts locally
-* Review text, names, punctuation and timing
-* Adjust subtitle timing with audio preview
-* Optionally create English subtitle output when the project needs an English version
-* Export in formats ready for editing, learning, documentation or content creation
+Voice2Sub focuses on a desktop workflow:
 
-## Release history
+1. Import a local video or audio file.
+2. Generate subtitles or transcript text with AI speech recognition.
+3. Review and edit the result.
+4. Export the format your next tool needs.
 
-Voice2Sub publishes release notes on the official website and mirrors the public version history here for GitHub discovery.
+## Common workflows
 
-### v1.1.3 — Subtitle editor, timing review and safer edited export
+Voice2Sub can be used for:
 
-**Date:** June 29, 2026
-**Status:** Current stable release
-
-Voice2Sub 1.1.3 adds a dedicated subtitle editor workflow for reviewing generated subtitles, opening supported subtitle files, adjusting text and timing, previewing audio, and exporting edited subtitle files safely.
-
-* Added a subtitle editor for reviewing generated subtitles and supported subtitle files.
-* Added timing review and adjustment tools with audio preview.
-* Added safer edited export workflow so reviewed subtitle files can be saved separately.
-* Improved recent work and generated subtitle review flow.
-* Improved subtitle editor multilingual UI polish across supported locales.
-* Improved production website, download pages and multilingual release information for the editor release.
-
-### v1.1.2 — English speech-to-subtitle translation and smoother multilingual experience
-
-**Date:** June 5, 2026
-
-Voice2Sub 1.1.2 adds translation from source-language speech into English subtitle files, improves multilingual UI rendering, makes CUDA setup clearer, and updates the subtitle engine for better stability across Windows, Linux, and macOS.
-
-* Translate speech from supported source languages into English subtitles with English-only output, or create separate source-language and English subtitle files with Original + English.
-* Updated subtitle engine and media processing for better stability across Windows, Linux, and macOS.
-* Improved display quality and smoother language switching for Chinese, Japanese, Korean, Thai, and Hindi.
-* Clearer CUDA setup and repair flow with background runtime checks.
-
-### v1.1.1 — Stability improvements for subtitle creation
-
-**Date:** June 1, 2026
-
-Voice2Sub 1.1.1 improves subtitle creation reliability, especially on macOS Apple Silicon, and handles long file names, Vietnamese accents, and special characters more smoothly.
-
-* Improved subtitle creation reliability on macOS Apple Silicon.
-* Better handling for long file names, Vietnamese accents, and special characters in file paths.
-* More reliable checks and recovery for the local processing components used to create subtitles.
-
-### v1.1.0 — Batch subtitle creation and clearer progress tracking
-
-**Date:** May 30, 2026
-
-Voice2Sub 1.1.0 lets you create subtitles for multiple files at once, follow progress more easily, and enjoy more reliable file handling and updates across Windows, macOS, and Linux.
-
-* Create subtitles for multiple audio or video files in one run with the new batch workflow.
-* Follow progress more easily with a new processing drawer and clearer status log.
-* Improved file selection, drag-and-drop, internal processing reliability, and update reliability on Windows, macOS, and Linux.
-
-### v1.0.5 — Linux support and smoother performance
-
-**Date:** May 20, 2026
-
-Voice2Sub 1.0.5 adds Linux availability and optimizes overall performance and stability for a smoother, more reliable user experience.
-
-* Voice2Sub is now available for Linux.
-* Optimized overall performance and stability for a smoother, more reliable user experience.
-
-### v1.0.4 — Improved license management and safer updates
-
-**Date:** May 18, 2026
-
-Voice2Sub 1.0.4 improves license management reliability and the overall activation experience, while making updates more reliable, safer, and more stable on Windows and macOS.
-
-* Improved license management reliability and overall activation experience.
-* Improved update reliability, safety, and stability on Windows and macOS.
-
-### v1.0.3 — Runtime compatibility checks, clearer diagnostics and safer updates
-
-**Date:** May 16, 2026
-
-Voice2Sub 1.0.3 improves Windows runtime compatibility, adds clearer diagnostics for subtitle generation errors, and makes update paths safer for older app versions.
-
-* Windows: Voice2Sub checks for a supported Microsoft Visual C++ Runtime and guides users to install the latest Microsoft runtime when their system is outdated.
-* Audio processing and subtitle generation errors now include detailed native process logs, exit codes, and clearer messages.
-* Update compatibility is improved for users moving from older app versions.
-
-### v1.0.2 — In-app CUDA setup, clearer download speed and free-duration limit
-
-**Date:** May 13, 2026
-
-Voice2Sub 1.0.2 updates how CUDA is enabled on Windows, improves download progress feedback, and adds a clear duration limit for the free version.
-
-* Windows: CUDA acceleration is managed inside the Windows app. The app detects compatible NVIDIA GPUs and lets users download required CUDA libraries from Settings.
-* Download speed is now shown for app updates, CUDA libraries, and AI model downloads.
-
-### v1.0.1 — Audio Quality Enhancement speed and stop/cancel stability
-
-**Date:** May 4, 2026
-
-Voice2Sub 1.0.1 matches the app update notes: faster Audio Quality Enhancement processing and more stable stop/cancel behavior during audio processing.
-
-* Optimized processing speed when using the "Audio Quality Enhancement" option.
-* Improved stability when stopping or canceling audio processing.
-
-### v1.0.0 — Initial public release
-
-**Date:** March 20, 2025
-
-The first public release introduced the desktop workflow for turning speech in video or audio into AI subtitles, transcripts and editable text.
-
-* Windows x64 and macOS Apple Silicon builds.
-* Windows app later supports optional CUDA acceleration managed inside the app.
-* Local speech recognition for offline transcription work.
-* 99 recognition languages and support for common media formats.
-* Subtitle and plain-text output for creator, learning and documentation workflows.
-
-See the full changelog: [CHANGELOG.md](CHANGELOG.md)
+- creating YouTube subtitle drafts from local video files
+- converting podcasts and interviews to text
+- creating subtitles for lessons, lectures and course videos
+- batch processing multiple video or audio files
+- reviewing and fixing subtitle timing before publishing
+- exporting SRT or VTT files for editors and platforms
+- creating TXT/CSV transcript files for notes, documentation or reuse
+- generating optional English subtitle output for supported workflows
 
 ## Supported platforms
 
-* Windows x64
-* macOS Apple Silicon
-* macOS Intel
-* Linux x64
+| Platform | Available build |
+|---|---|
+| Windows | Windows x64 MSI installer and Microsoft Store install |
+| macOS | Universal DMG for Apple Silicon and Intel Macs |
+| Linux | Linux x64 `.deb` package and portable `.tar.gz` archive |
 
-## Useful links
+Voice2Sub supports Windows, macOS and Linux desktop workflows. CUDA acceleration is available on supported Windows/Linux systems with NVIDIA GPUs, and Metal acceleration is available on supported Apple Silicon Macs.
 
-* Official website: https://voice2sub.pro.vn/
-* Download: https://voice2sub.pro.vn/download
-* Subtitle editor: https://voice2sub.pro.vn/subtitle-editor
-* Supported formats: https://voice2sub.pro.vn/supported-formats
-* What's new: https://voice2sub.pro.vn/whats-new
-* Support: [SUPPORT.md](SUPPORT.md)
-* Security policy: [SECURITY.md](SECURITY.md)
+The latest public release is **Voice2Sub v1.1.3**.
 
-## Notes
+## Output formats
 
-This repository is used as the public GitHub home for Voice2Sub product information, release notes, support links and issue tracking.
+Voice2Sub can export subtitle and transcript files in formats commonly used by creators, editors and subtitle workflows:
 
-Voice2Sub is a closed-source/proprietary commercial desktop application. The main application source code is not published in this repository unless explicitly stated otherwise.
+- SRT
+- VTT
+- TXT
+- LRC
+- CSV
+- JSON
 
-## Keywords
+## Local-first subtitle workflow
 
-AI subtitle generator, subtitle generator, subtitle editor, SRT editor, VTT editor, speech to text, transcription, audio transcription, video transcription, Whisper transcription, local AI transcription, offline transcription, SRT generator, VTT generator, Windows subtitle app, macOS subtitle app, Linux subtitle app, CUDA transcription, Metal transcription, creator subtitle workflow.
+Voice2Sub is designed for users who want to keep media files on their own computer during the subtitle workflow. The website is used for product information, downloads and release notes. Source video/audio files are handled in the desktop app workflow.
+
+## Public repository purpose
+
+Voice2Sub is a closed-source/proprietary commercial desktop application.
+
+This repository is used for:
+
+- public product information
+- release notes
+- issue tracking
+- support links
+- security contact information
+- GitHub discovery
+
+The main application source code is not published in this repository unless explicitly stated otherwise.
+
+## Downloads
+
+Download the latest Windows, macOS or Linux build from the official download page:
+
+https://voice2sub.pro.vn/download
+
+Available download paths include:
+
+- Windows x64 MSI installer
+- Microsoft Store install
+- macOS Universal DMG for Apple Silicon and Intel
+- Linux x64 `.deb` package
+- Linux x64 portable `.tar.gz` archive
+
+## Release notes
+
+- Latest release: [Voice2Sub v1.1.3](https://github.com/thehungngo/Voice2Sub/releases/latest)
+- Full changelog: [CHANGELOG.md](CHANGELOG.md)
+- Public website release notes: https://voice2sub.pro.vn/whats-new
+
+## Support
+
+For product support, bug reports and feedback:
+
+- Open a GitHub issue: https://github.com/thehungngo/Voice2Sub/issues
+- Read support information: [SUPPORT.md](SUPPORT.md)
+
+## Security
+
+Please do not report security issues in public GitHub issues.
+
+Read the security policy here:
+
+[SECURITY.md](SECURITY.md)
+
+## License
+
+Voice2Sub is proprietary software. All rights reserved.
+
+---
+
+If Voice2Sub is useful for your workflow, consider starring this repository to follow public updates.
