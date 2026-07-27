@@ -2,11 +2,27 @@
 
 This changelog mirrors the public Voice2Sub release history from the official website and GitHub releases.
 
+## v1.1.4 — Reliability, safer downloads and smoother upgrades
+
+Date: 2026-07-25  
+Channel: stable  
+Status: current
+
+Voice2Sub 1.1.4 improves startup reliability, media access, task cancellation, model and update downloads, subtitle export, and recovery of settings, history, and editing sessions across Windows, macOS, and Linux.
+
+### Changes
+
+- Improved startup and second-launch reliability across Windows, macOS, and Linux.
+- Improved access to media stored in OneDrive, network locations, and folders with special characters, with clearer error messages.
+- Safer cancellation and shutdown handling reduces leftover background processes and temporary files.
+- Improved detection of missing, damaged, or incomplete models, with safer resumable model and update downloads.
+- Safer subtitle export and data recovery help prevent accidental overwrites and preserve settings, history, and editor sessions.
+- Improved upgrade compatibility from Voice2Sub 1.1.2 and 1.1.3. macOS now requires version 15.6 or later.
+
 ## v1.1.3 — Subtitle editor, timing review and safer edited export
 
 Date: 2026-06-29  
 Channel: stable  
-Status: current
 
 Voice2Sub 1.1.3 adds a dedicated subtitle editor workflow for reviewing generated subtitles, opening supported subtitle files, adjusting text and timing, previewing audio, and exporting edited subtitle files safely.
 
