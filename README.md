@@ -67,7 +67,7 @@ Voice2Sub can be used for:
 
 Voice2Sub supports Windows, macOS and Linux desktop workflows. CUDA acceleration is available on supported Windows/Linux systems with NVIDIA GPUs, and Metal acceleration is available on supported Apple Silicon Macs.
 
-The latest public release is **Voice2Sub v1.1.3**.
+The latest public release is **Voice2Sub v1.1.4**.
 
 ## Output formats
 
